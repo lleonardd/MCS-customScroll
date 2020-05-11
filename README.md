@@ -6,6 +6,8 @@ The `MCS-customScroll` Framework is a simple and efficiant way to change the scr
 
 Its easy to use. It just requires you to add the direction describing CSS classes on your HTML tags inside the `mcs-customScroll` container.
 
+### Checkout the [Demo](https://micro-scripts.github.io/MCS-customScroll/) 
+
 ----------
 
 ## How to use:
