@@ -53,7 +53,6 @@ window.addEventListener('resize', function(){
 window.addEventListener('scroll', () => {
     var currentScrollValue = window.scrollY;
     var lsc = lastScrollCount(currentScrollValue);
-
     var count = 0;
     scrolledOver = 0;
     scrolledOverNext = childsValues[0];
@@ -65,7 +64,6 @@ window.addEventListener('scroll', () => {
             }
         }
     }
-
     if(childsList[count].className == "down"){    
         window.scrY += lsc;
         window.scrX = childsValuesWidth[count];
@@ -82,11 +80,7 @@ window.addEventListener('scroll', () => {
         window.scrX -= lsc;
         window.scrY = childsValuesHeight[count];
     }
-
     document.getElementById('mcs-customScroll').scroll(window.scrX,window.scrY);
-
-    console.log(currentScrollValue);
-    // console.log("scrY: "+scrY+"   scrX: "+scrX);
 });
 
 var lastScrPos = 0;
