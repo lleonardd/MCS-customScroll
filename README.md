@@ -1,9 +1,15 @@
+# Microscripts ChustomScroll-Framework
+**Version 5.5**
+
 The `MCS-customScroll` Framework is a simple and efficiant way to change the scrollbehaviour of your HTML page.
+
 
 Its easy to use. It just requires you to add the direction describing CSS classes on your HTML tags inside the `mcs-customScroll` container.
 
-How to use:
----
+----------
+
+## How to use:
+
 1. Here is a simple examle to bether understand how to structure your HTML in order for it to work:
 ```
     <body>
@@ -47,8 +53,8 @@ How to use:
 ```
 
 
-The Result:
----
+## The Result:
+
 With this done we basicaly finished the custom scroll.
 The scroll direction now looks like this:
 
@@ -57,3 +63,15 @@ Down ⬇ | Left ⬅
 Right ➡ | Up ⬆
 
 With this technique you are able to simply and quickly create complex custom scrolling pages.
+
+----------
+
+## Contributors
+- Leonard Schedel 
+
+----------
+## License & copyright
+
+© Leonard Schedel, Fullstack Webdeveloper
+
+Licensed under the [Apache License 2.0](LICENSE)
