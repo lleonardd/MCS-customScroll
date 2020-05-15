@@ -14,7 +14,8 @@ function init(){
     var allHeight = 0;
     var allWidth = 0;
     for(var c=0;c<childsList.length;c++){
-        var type = childsList[c].className;
+        var classes = childsList[c].className;
+        var type = classes.split(" ");
         var height = childsList[c].offsetHeight;
         var width = childsList[c].offsetWidth;
         if(type.includes("down") || type.includes("up")){
@@ -64,19 +65,19 @@ window.addEventListener('scroll', () => {
             }
         }
     }
-    if(childsList[count].className == "down"){    
+    if(childsList[count].className.split(" ").includes("down")){    
         window.scrY += lsc;
         window.scrX = childsValuesWidth[count];
     }
-    if(childsList[count].className == "up"){
+    if(childsList[count].className.split(" ").includes("up")){
         window.scrY -= lsc;
         window.scrX = childsValuesWidth[count];
     }
-    if(childsList[count].className == "right"){
+    if(childsList[count].className.split(" ").includes("right")){
         window.scrX += lsc;
         window.scrY = childsValuesHeight[count];
     }
-    if(childsList[count].className == "left"){
+    if(childsList[count].className.split(" ").includes("left")){
         window.scrX -= lsc;
         window.scrY = childsValuesHeight[count];
     }
