@@ -1,5 +1,9 @@
 # Microscripts ChustomScroll-Framework
-**Version 5.5**
+**Version 5.6**
+
+**Updates:** Added scroll trough functionality and improved performance.
+
+----------
 
 The `MCS-customScroll` Framework is a simple and efficiant way to change the scrollbehaviour of your HTML page.
 
